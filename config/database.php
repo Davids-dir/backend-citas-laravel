@@ -38,7 +38,7 @@ return [
 
         'clinica_dental' => [
             'driver' => 'mysql',
-            'host' => 'us-cdbr-east-02.cleardb.com',
+            'host' => 'us-cdbr-east-02.cleardb.com/heroku',
             'database' => 'CLEARDB_DATABASE_URL',
             'username' => 'b769f55eb04b98',
             'password' => '0bc795ec',
