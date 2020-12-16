@@ -17,7 +17,7 @@ class CreateAppointmentsTable extends Migration
             $table->id();
             $table->string('reason');
             $table->date('date');
-            $table->string('notes')->default('');
+            $table->string('notes')->nullable();
             $table->timestamps();
 
             $table->foreignId('user_id')->constrained('users');
